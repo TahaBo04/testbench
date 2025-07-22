@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment files
+.env
+*.env
+venv/
+.env.*.local
+
+# macOS
+.DS_Store
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# System files
+Thumbs.db
+ehthumbs.db
+
+# Ignore secrets
+*.key
+openai_key.txt
